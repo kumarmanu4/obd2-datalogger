@@ -4,7 +4,7 @@ timeNow = time.time()
 print('------OBD VEHICLE DATA LOGGER------')
 
 #newFile = open(input('Enter filename for .csv data log:'), 'w+')
-newFile = open('/home/kumarmanu4/obd_bluetooth_beat/data'+str(timeNow)+'.csv', 'w+')
+newFile = open('path'+str(timeNow)+'.csv', 'w+')
 count = 0
 
 connection = obd.OBD()
